@@ -7,4 +7,3 @@ from blkpy.util import run_lsblk
 def main(device, verbose):
     print(f"Device: {device}")
     print(f"Verbose: {verbose}")
-    print(f"{run_lsblk(device)}")
